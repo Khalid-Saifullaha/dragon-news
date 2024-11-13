@@ -12,7 +12,7 @@ const LeftNavbar = () => {
       <h2 className="font-semibold mb-3">All Category ({categories.length})</h2>
       <div className="flex flex-col gap-2">
         {categories.map((category) => (
-          <button className="btn" key={category.category_id}>
+          <button className="btn bg-base-100" key={category.category_id}>
             {category.category_name}
           </button>
         ))}

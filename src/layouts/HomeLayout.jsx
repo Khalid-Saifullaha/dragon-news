@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import LeftNavbar from "../components/layout-component/LeftNavbar";
 import RightNav from "../components/layout-component/RightNav";
 import SocialLogin from "../components/SocialLogin";
+import FindUs from "../components/layout-component/FindUs";
 
 const HomeLayout = () => {
   return (
@@ -24,8 +25,9 @@ const HomeLayout = () => {
         </aside>
 
         <section className="col-span-6">Main Content</section>
-        <aside className="col-span-3">
+        <aside className="col-span-3 space-y-5">
           <SocialLogin></SocialLogin>
+          <FindUs></FindUs>
         </aside>
       </main>
     </div>

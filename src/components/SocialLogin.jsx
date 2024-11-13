@@ -3,8 +3,8 @@ const SocialLogin = () => {
   return (
     <div>
       <h2 className="font-semibold mb-3">Login with</h2>
-      <div className=" *:w-full space-y-3">
-        <button className="btn">
+      <div className=" *:w-full space-y-3 *:bg-base-100">
+        <button className="btn ">
           <FaGoogle />
           Login with Google
         </button>
