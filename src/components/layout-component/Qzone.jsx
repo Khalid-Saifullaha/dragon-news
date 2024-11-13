@@ -1,6 +1,7 @@
 import swimingImg from "../../assets/swimming.png";
 import classImg from "../../assets/class.png";
 import playGroundImg from "../../assets/playground.png";
+import bgImg from "../../assets/bg.png";
 
 const Qzone = () => {
   return (
@@ -10,6 +11,7 @@ const Qzone = () => {
         <img src={swimingImg} alt="" />
         <img src={classImg} alt="" />
         <img src={playGroundImg} alt="" />
+        <img src={bgImg} alt="" />
       </div>
     </div>
   );
