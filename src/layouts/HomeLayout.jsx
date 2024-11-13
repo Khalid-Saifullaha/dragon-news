@@ -6,6 +6,7 @@ import LeftNavbar from "../components/layout-component/LeftNavbar";
 import RightNav from "../components/layout-component/RightNav";
 import SocialLogin from "../components/SocialLogin";
 import FindUs from "../components/layout-component/FindUs";
+import Qzone from "../components/layout-component/Qzone";
 
 const HomeLayout = () => {
   return (
@@ -28,6 +29,7 @@ const HomeLayout = () => {
         <aside className="col-span-3 space-y-5">
           <SocialLogin></SocialLogin>
           <FindUs></FindUs>
+          <Qzone></Qzone>
         </aside>
       </main>
     </div>
