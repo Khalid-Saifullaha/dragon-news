@@ -4,9 +4,7 @@ import LatestNews from "../components/LatestNews";
 import Navbar from "../components/Navbar";
 import LeftNavbar from "../components/layout-component/LeftNavbar";
 import RightNav from "../components/layout-component/RightNav";
-import SocialLogin from "../components/SocialLogin";
-import FindUs from "../components/layout-component/FindUs";
-import Qzone from "../components/layout-component/Qzone";
+import { Outlet } from "react-router-dom";
 
 const HomeLayout = () => {
   return (
@@ -25,11 +23,11 @@ const HomeLayout = () => {
           <LeftNavbar></LeftNavbar>
         </aside>
 
-        <section className="col-span-6">Main Content</section>
-        <aside className="col-span-3 space-y-5">
-          <SocialLogin></SocialLogin>
-          <FindUs></FindUs>
-          <Qzone></Qzone>
+        <section className="col-span-6">
+          <Outlet></Outlet>
+        </section>
+        <aside className="col-span-3 ">
+          <RightNav></RightNav>
         </aside>
       </main>
     </div>
